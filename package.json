@@ -1,0 +1,45 @@
+{
+  "name": "whoopitappapis",
+  "version": "1.0.0",
+  "description": "apis for whoopitapp app",
+  "scripts": {
+    "start": "cross-env NODE_ENV=dev node server.js"
+  },
+  "author": "Sourav Dutta",
+  "contributors": [
+    {
+      "name": "Sourav Dutta",
+      "email": "developersourav2012@gmail.com"
+    },
+    {
+      "name": "Debasish Manna",
+      "email": "debasish1aug@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "ssh://WhoopitApp@bitbucket.org:whoopitappdevelopment/server.git"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^2.0.0",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "jsonwebtoken": "^8.1.0",
+    "moment": "^2.19.0",
+    "mongodb": "^2.2.33",
+    "mongoose": "^4.12.4",
+    "morgan": "^1.9.0",
+    "multer": "^1.3.0",
+    "nodemon": "^1.12.1",
+    "passport": "^0.4.0",
+    "socket.io": "^2.0.3",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "cross-env": "^5.0.5",
+    "nodemon": "^1.12.1"
+  }
+}
